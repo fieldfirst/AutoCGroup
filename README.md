@@ -21,7 +21,8 @@ For a Linux user out there I recommend this options:
 
 **Supported environment**
 
-1. Gnome desktop
-2. _cgroup subsystem_ was enabled
+1. Systemd init
+2. Gnome desktop
+3. _cgroup subsystem_ was enabled
 
 For another desktop environment you just edit a source code to conform your desktop or it's a matter of preferences. :)
