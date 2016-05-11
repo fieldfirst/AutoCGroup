@@ -5,6 +5,15 @@ It will not going to be a full featured app. But means to help some users to red
 
 Mainly because, Linux isn't targeting a desktop users at the first place - High performance computing / server aren't suitable for battery powered devices.
 
+**Note:** Due to my limited free time I will put this project on hold in flavour of this [Linux-CPU-Hotplugger](https://github.com/fieldfirst/Linux-CPU-Hotplugger) instead.
+
+Mainly because for the desktop/laptop user applying the CGroup only has a little effect on power consumption, But it's still useful for some administration tasks such as memory constraints for selected processes.
+
+The concept is very simple, hence the implementation is quite complex - just using a ptrace() syscall to grab a new pid. Then compare it against the database before put it into a designated CGroup.
+
+**P.S.** I will come back to finish it in the future (in my free time).
+
+
 For a Linux user out there I recommend this options:
 
 1. Reduce **a timer clock frequency to 300Hz** - By compiling your own custom kernel
