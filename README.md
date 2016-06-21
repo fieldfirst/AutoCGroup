@@ -33,7 +33,7 @@ For a Linux user out there I recommend this options:
 
 3. Using this simple application.
 
-    *Note: You must enable a __cgroup subsystem__ - By compiling your own custom kernel*
+    *Note: Most modern kernel are include this by default. But if not You must enable a __cgroup subsystem__ - By compiling your own custom kernel*
 
 
 
